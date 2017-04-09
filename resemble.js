@@ -480,7 +480,7 @@ URL: https://github.com/Huddle/Resemble.js
 
 				context.putImageData(imgd, 0, barHeight);
 
-				return hiddenCanvas.toDataURL("image/png");
+				return hiddenCanvas.toDataURL("image/png", 0);
 			};
 		}
 
